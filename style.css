@@ -1,0 +1,72 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.fontdancing {
+  font-family: "Dancing Script", cursive;
+}
+/*  header*/
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.headerh1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: bisque;
+}
+.nav a:focus {
+  color: bisque;
+}
+
+/*Home*/
+
+.div1 {
+  background: repeating-linear-gradient(
+    -45deg,
+    black,
+    black 4px,
+    #444 5px,
+    #444 5px
+  );
+}
+
+.div11 {
+  padding-top: 10%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.div11 h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.div12 {
+  padding-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.div13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div13p {
+  margin-top: 5%;
+  max-width: 60%;
+}
